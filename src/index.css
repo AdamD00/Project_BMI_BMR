@@ -1,0 +1,151 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #053742a9;
+  font-family: serif;
+}
+
+.container{
+  box-shadow: 0px 0px 12px #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+}
+select{
+  width: 50%;
+  font-size: 1.2rem;
+  padding: 8px 4px;
+  margin: 8px 0px;
+  border-radius: 8px ;
+
+}
+
+input{
+  width: 50%;
+  font-size: 1.2rem;
+  padding: 8px 4px;
+  margin: 8px 0px;
+  border-radius: 8px ;
+}
+.btn{
+  font-family: serif;
+  display: block;
+  width: 100%;
+  font-size: 1.2rem;
+  margin: 8px 0;
+  background: #053742;
+  padding: 10px 0;
+  border: 1px solid #39A2DB;
+  color: #E8F0F2;
+  border-radius: 8px;
+  cursor: pointer;
+
+}
+.btn-outline{
+  background-color: #fff;
+  color:  #333;
+}
+.center{
+  text-align: center;
+  margin: 24px 0;
+}
+.outlet{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  margin-left: 37%;
+  margin-top: 4.5%;
+}
+
+p{
+  margin: 10px 0;
+}
+
+.Tabs {
+  width: 80%;
+  height: auto;
+  min-height: 400px;
+  background: #053742;
+  margin: 3.5rem auto 1.5rem;
+  padding: 2rem 1rem;
+  color: #E8F0F2;
+  border-radius: 2rem;
+  @media (max-width: 769px) {
+   padding: 2rem 0;
+  }
+ }
+ ul.nav {
+  width: 60%;
+  margin: 0 auto 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #39A2DB;
+  border-radius: 2rem;
+  padding-left: 0px;
+  @media (max-width: 768px) {
+    width: 90%;
+  }
+}
+ul.nav li {
+  width: 50%;
+  padding: 1rem;
+  list-style: none;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.7s;
+  border-bottom-left-radius: 2rem;
+  border-top-left-radius: 2rem;
+}
+ul.nav li:nth-child(2) {
+  border-radius: 0;
+  border-bottom-right-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+ul.nav li:hover {
+  background: rgba(50, 224, 196, 0.15);
+}
+ul.nav li.active {
+  background: #39A2DB;
+}
+.FirstTab p,
+.SecondTab p {
+  font-size: 2rem;
+  text-align: center;
+}
+h1{
+  color:#E8F0F2;
+}
+.top{
+  box-shadow: 0px 0px 12px #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  align-content: center;
+  flex-direction: row;
+  background-color: #053742;
+  width: 80%;
+  height: 10%;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
